@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Modal } from "../modal/modal";
 import { Addmodal } from "../addmodal/addmodal";
+import settingslogo from "../img/settingslogo.svg";
 import "./settings.css";
 import arhiv from"../img/arhiv.svg"
 const Settings = () => {
@@ -15,6 +16,7 @@ const Settings = () => {
    
         <div class="settings">
           <button onClick={() => setModalActive(true)} class="first-button">
+            <img src={settingslogo}/>
             Настроить
           </button>  
              <img src={arhiv}/>

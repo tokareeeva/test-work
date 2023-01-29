@@ -1,7 +1,4 @@
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+
 .checkbox {
   display: flex;
   font-family: "Roboto";
@@ -133,6 +130,7 @@ button:hover {
   align-items: center;
   gap: 10px;
   margin-right: 35px;
+
 }
 
 .reg {

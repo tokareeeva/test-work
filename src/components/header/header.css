@@ -1,57 +1,94 @@
-
-
+.menu ul li {
+  padding: 10px;
+}
+.menu ul li, .menu ul {
+  display: inline-block;
+}
+.menu ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.menu ul ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  margin-top: 10px;
+  margin-left: -10px;
+  width: 196px;
+  height: 110px;
+}
+.menu ul a {
+  color: #002c44;
+  text-decoration: none;
+}
+.menu ul ul a {
+  color: #000;
+  text-decoration: none;
+}
+.menu li:hover ul {
+  display: block;
+}
+.menu li:hover li {
+  display: block;
+}
+.ttest {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 37px;
+}
+.ttest:hover {
+  color: #0073a4;
+}
 .user-setings {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-right: 35px;
-    margin-bottom: 17px;
-  }
-  
-  .navigation {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 38px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    margin-bottom: 17px;
-  }
-  .test{
-    opacity: 0.5;
-  }
-  
-  
-  .decoration-line {
-    background-color: #e6e6e6;
-    height: 2px;
-    width: 100%;
-  }
-  .user-logo {
-    background-color: #f2f4f6;
-    border-radius: 50%;
-    height: 44px;
-    width: 44px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .user-logo1 {
-    margin-left: 10px;
-    margin-bottom: 5px;
-    width: 20px;
-    height: 24px;
-    opacity: 0.5;
-  }
-  .logo-main {
-    color: #0073a4;
-    font-size: 35px;
-    margin-right: 25px;
-    margin-left: 40px;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 22px;
-    line-height: 26px;
-  }
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 35px;
+}
+.navigation {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 17px;
+}
+.test {
+  opacity: 0.5;
+}
+.decoration-line {
+  background-color: #e6e6e6;
+  height: 2px;
+  width: 100%;
+}
+.user-logo {
+  background-color: #f2f4f6;
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-logo1 {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  width: 20px;
+  height: 24px;
+  opacity: 0.5;
+}
+.logo-main {
+  color: #0073a4;
+  font-size: 35px;
+  margin-right: 25px;
+  margin-left: 40px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 26px;
+}
