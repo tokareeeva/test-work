@@ -17,6 +17,7 @@ ul {
   
   img {
     margin-right: 10px;
+    margin-left: 5px;
   }
   input {
     margin-right: 11px;
@@ -82,3 +83,20 @@ ul {
     justify-content: space-between;
     margin-top: 20px;
   }
+  .textt{
+    font-size: 24px;
+    margin-bottom: 29px;
+  }
+  .text {
+    font-size: 14px;
+  }
+  .close {
+    color: #002C44;;
+    float: right;
+    font-size: 28px;
+   
+  }
+.texxt{
+  font-size: 14px;
+  margin-bottom: 7px;
+}

@@ -2,14 +2,13 @@ table,
 td {
   background-color: #ffffff;
   border: 1px solid #E6EAED;
- /* border: 2px solid #000000;*/
   border-collapse: collapse;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  margin: auto, auto;
+ 
   color: #002C44;
 }
 thead {
@@ -27,6 +26,21 @@ table {
   opacity: 0.5;
   color: #002C44;
 }
+.tabletoop{
+ 
+  opacity: 0.5;
+  border: none;
+  background-color: transparent;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.tabletooop{
+  opacity: 0.5;
+  border: none;
+  background-color: transparent;
+  padding-left: 50px;
+}  
+
 .skrol{
   width: 96%;
   margin-right: 2%;
@@ -34,7 +48,7 @@ table {
 height: 35vw;
 overflow: auto;
 margin-bottom: 18px; 
-margin-top: 30px;
+
 border: 1px solid #E6EAED;
 height: 938px;
 }
